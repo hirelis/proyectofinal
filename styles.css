@@ -1,0 +1,195 @@
+/* Estilos general*/
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    margin-top: 30px;
+}
+
+.container {
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+}
+
+/* Encabezado */
+header {
+    display: flex;
+    align-items: center;
+    background-color: #ffffff;
+    color: rgb(21, 190, 128);
+    padding: 10px 0;
+}
+
+.titulo h1 {
+    text-align:center;
+    position:static;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+    font-size: 25px;
+}
+
+.parrafo1{
+    font-size: small;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding: auto;
+}
+
+.parrafo2{
+    font-size: small;
+}
+
+.parrafo3{
+    font-size: small;
+}
+
+
+/* Estilo para el logo*/
+img {
+    display: flex;
+    width: 30%;   
+    height: 10%;
+    margin-right: 10px;
+}
+
+/* Estilo para el cuadro */
+.cuadro {
+    display: flex;
+    align-items: center;
+    background-color: #ffffff;
+    border: 2px solid #28c183;
+    width: 1265px;
+}
+
+.div-izquierdo{
+    flex: 1;
+    background-color: rgb(234, 159, 46);
+    color: #ffffff;
+    padding: 5px;
+    box-sizing: border-box;
+    font-size: small;
+}
+.div-derecho {
+    flex: 1;
+    background-color: rgb(93, 98, 248);
+    color: #ffffff;
+    padding: 5px;
+    box-sizing: border-box;
+    font-size: small;
+}
+
+.div-derecho2 {
+    flex: 1;
+    background-color: rgb(21, 190, 128);
+    color: #ffffff;
+    padding: 5px;
+    box-sizing: border-box;
+    font-size: small;
+}
+
+
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #014e29;
+}
+
+/* Secciones */
+section {
+    margin: 40px 0;
+}
+
+/* Formulario de contacto */
+form label {
+    display: block;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+section ul{
+    list-style-type: circle;
+    color: #0d0d0e;
+    font-size: 16px;
+    margin-left: 20px;
+    padding: 0; 
+    margin: 0;
+    display:flexbox;
+}
+
+section ul li{
+    display: flexbox;
+    margin-right: 50px;
+}
+
+/* Estilos de Grid */
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
+}
+
+@media (min-width: 3300px) {
+    main {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+/* Estilos generales del footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Estilos para la sección de redes sociales */
+.redes-sociales {
+    margin-bottom: 20px;
+}
+
+.redes-sociales a {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+/* Estilos para las imágenes de redes sociales */
+.redes-sociales img {
+    width: 30px;
+    height: 30px;
+}
+
+/* Estilos para los enlaces de pie de página */
+.enlaces a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
